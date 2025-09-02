@@ -1,0 +1,16 @@
+.sidebar {
+    height: calc(100vh - 57px);
+    width: 32px;
+    transition: width .2s ease-in-out;
+    background-color: rgb(14, 17, 19);
+}
+
+.sidebar:hover {
+    width: 272px;
+}
+
+@media only screen and (max-width: 1200px)  {
+    .sidebar {
+        display: none;
+    }
+}

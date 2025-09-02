@@ -1,0 +1,103 @@
+header {
+    height: 57px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 17, 19);
+}
+
+svg {
+    fill: white;
+}
+
+.left svg {
+    height: 22px;
+}
+
+.left img {
+    height: 32px;
+}
+
+.mid svg {
+    height: 16px;
+}
+
+.right svg {
+    height: 20px;
+}
+
+.right img {
+    height: 32px;
+    border-radius: 100%
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 24px;
+}
+
+.mid {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 11.5px 16px;
+    background-color: rgb(42, 50, 54);
+    max-width: 560px;
+    width: 100%;
+    border-radius: 999px;
+}
+
+.input-wrapper span {
+    position: absolute;
+    display: flex
+}
+
+.input-wrapper input {
+    flex: 1;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+}
+
+.input-wrapper input::placeholder {
+    color: rgb(139, 162, 173)
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 16px;
+}
+
+.right a, .right button, .left button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 999px;
+}
+
+.right a:hover, .right button:hover, .left button:hover {
+    cursor: pointer;
+    background-color: rgb(51, 61, 66)
+}
+
+.left button {
+    padding: 4px;
+    padding-right: 16px;
+}
