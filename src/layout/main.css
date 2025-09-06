@@ -5,9 +5,18 @@ main {
     width: 732px;
     background-color: rgb(14, 17, 19);
     min-height: calc(100vh - 57px);
+    min-width: 0;
     height: auto;
     padding-top: 7px;
     color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+main hr {
+    margin: 0;
 }
 
 .top {
@@ -42,23 +51,39 @@ main {
 }
 
 article {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: auto;
     padding: 4px 16px;
     margin: 4px 0;
     border-radius: 15px;
 }
 
+article > a {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
 article:hover {
     background-color: rgb(24, 28, 31);
+}
+
+.post-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: white;
 }
 
 .credit-bar {
     display: flex;
     justify-content: space-between;
     margin: -4px 0 4px 0;
+}
+
+.subreddit-icon {
+    padding-right: 6px;
 }
 
 .credit-bar button {
@@ -69,6 +94,7 @@ article:hover {
     background: none;
     outline: none;
     border: none;
+    z-index: 999;
 }
 
 .credit-bar button:hover {
@@ -77,6 +103,7 @@ article:hover {
 
 .credit-bar span {
     gap: 4px;
+    z-index: 999;
 }
 
 .credit-bar, .credit-bar span, .credit-bar a {
@@ -84,11 +111,6 @@ article:hover {
     font-size: 12px;
     display: flex;
     align-items: center;
-}
-
-article > a {
-    font-size: 18px;
-    margin-bottom: 8px;
 }
 
 .post-media-container {
@@ -128,19 +150,39 @@ article > a {
 }
 
 .action-row span {
+    font-size: 12px;
+    color: white;
     display: flex;
     align-items: center;
     border-radius: 15px;
     background-color: rgb(42, 50, 54);
+    z-index: 999;
 }
 
 .action-row button, .action-row a {
+    font-size: 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    height: 32px;
+    padding: 0 12px;
     color: white;
     display: flex;
     align-items: center;
     border: none;
     background: none;
     outline: none;
+}
+
+.action-row a, .action-row button:last-child {
+    gap: 6px;
+}
+
+.vote {
+    padding: 0 8px 0 8px !important;
+}
+
+.action-row button:hover, .action-row a:hover {
+    background-color: rgb(51, 61, 66);
 }
 
 @media(max-width: 960px) {
