@@ -4,6 +4,7 @@ header {
     color: white;
     display: flex;
     align-items: center;
+    position: sticky;
     justify-content: space-between;
     background-color: rgb(14, 17, 19);
     border-bottom: 1px solid rgb(62, 65,66);

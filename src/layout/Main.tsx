@@ -1,5 +1,6 @@
 import './main.css';
 import icons from "../components/Icons";
+import TimeAgo from '../functions/TimeAgo'
 
 export default function Main() {
     return (
@@ -14,7 +15,7 @@ export default function Main() {
                     <span>{icons.arrow}</span>
                 </button>
             </div>
-            <hr></hr>
+            <hr style={{margin: "8px 0 0 0"}}></hr>
             <div className="content">
                 <article>
                     <div className="credit-bar">
@@ -24,17 +25,17 @@ export default function Main() {
                                 r/subreddit
                             </a>
                             <span>•</span>
-                            <span>12 min. ago</span>
+                            <TimeAgo date="2025-09-06T19:39:00" />
                         </span>
                         <button>
                             {icons.article_actions}
                         </button>
                     </div>
                     <a>
-                        Reddit post title
+                        A very cute kitty I found on Google images.
                     </a>
-                    <div className="post-media-container">
-
+                    <div style={{backgroundImage: `url(car.jpg)`}} className="post-media-container">
+                        <img src="car.jpg"/>
                     </div>
                 </article>
             </div>

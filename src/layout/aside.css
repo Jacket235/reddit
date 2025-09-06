@@ -2,3 +2,9 @@ aside {
     padding-top: 5px;
     width: 306px;
 }
+
+@media(max-width: 960px){
+    aside {
+        display: none;
+    }
+}
