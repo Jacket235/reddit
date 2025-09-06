@@ -37,6 +37,22 @@ export default function Main() {
                     <div style={{backgroundImage: `url(car.jpg)`}} className="post-media-container">
                         <img src="car.jpg"/>
                     </div>
+                    <div className="action-row">
+                        <span>
+                            <button>{icons.upvote}</button>
+                            12
+                            <button>{icons.downvote}</button>
+                        </span>
+                        <span>
+                            <a>{icons.comment} 127</a>
+                        </span>
+                        <span>
+                            <button>{icons.reward}</button>
+                        </span>
+                        <span>
+                            <button>{icons.share} Share</button>
+                        </span>
+                    </div>
                 </article>
             </div>
         </main>

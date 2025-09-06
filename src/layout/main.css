@@ -96,7 +96,6 @@ article > a {
     width: 100%;
     border-radius: 15px;
     background-color: black;
-    margin-bottom: 16px;
 }
 
 .post-media-container::before {
@@ -119,6 +118,16 @@ article > a {
     display: block;
     object-fit: contain;
     z-index: 1;
+}
+
+.action-row {
+    
+}
+
+.action-row button {
+    border: none;
+    background: none;
+    outline: none;
 }
 
 @media(max-width: 960px) {
