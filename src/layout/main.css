@@ -1,3 +1,97 @@
 main {
-    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 732px;
+    background-color: rgb(14, 17, 19);
+    height: calc(100vh - 57px);
+    padding-top: 7px;
+    color: white;
+    overflow: auto;
+}
+
+hr {
+    margin: 8px 0 0 0;
+}
+
+.top {
+    display: flex;
+}
+
+.top button {
+    border: none;
+    background: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 0 6px 0 10px;
+}
+
+.top button span {
+    display: flex;
+    line-height: 32px;
+    padding: 0 2px;
+}
+
+.top button, .top button svg {
+    color: rgb(139, 162, 173);
+    fill: currentColor;
+}
+
+.top button:hover {
+    background-color: rgb(61, 73, 78);
+}
+
+article {
+    width: 100%;
+    height: auto;
+    padding: 4px 16px;
+    margin: 4px 0;
+    border-radius: 15px;
+}
+
+article:hover {
+    background-color: rgb(24, 28, 31);
+}
+
+.credit-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: -4px 0 4px 0;
+}
+
+.credit-bar button {
+    border-radius: 999px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.credit-bar button:hover {
+    background-color: rgb(51, 61, 66);
+}
+
+.credit-bar span {
+    gap: 4px;
+}
+
+.credit-bar, .credit-bar span, .credit-bar a {
+    color: rgb(139, 162, 173);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+article a {
+    font-size: 18px;
+}
+
+.post-media-container {
+    
 }
