@@ -1,6 +1,6 @@
 .sidebar {
     position: sticky;
-    height: calc(100vh - 57px);
+    height: 100%;
     font-size: 14px;
     overflow-y: auto;
     overflow-x: hidden;
