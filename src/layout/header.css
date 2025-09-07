@@ -1,5 +1,5 @@
 header {
-    height: 57px;
+    min-height: 56px;
     width: 100%;
     color: white;
     display: flex;
@@ -38,8 +38,8 @@ svg {
 .left {
     display: flex;
     align-items: center;
-    padding-left: 16px;
     padding-right: 24px;
+    padding-left: 16px;
 }
 
 .mid {
@@ -47,6 +47,7 @@ svg {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    padding: 8px 0;
     width: 560px;
     display: flex;
     min-width: 0;
@@ -85,17 +86,36 @@ svg {
     display: flex;
     align-items: center;
     padding-left: 24px;
-    padding-right: 16px;
+    font-size: 14px;
 }
+
+/* .right a {
+    display: flex;
+    align-items: center;
+    padding: 0 14px 0 10px;
+    border-radius: 999px;
+} */
 
 .right a, .right button, .left button {
     display: flex;
     align-items: center;
-    padding: 10px;
+    justify-content: center;
+    height: 40px;
+    padding: 0 10px;
     border: none;
     outline: none;
     background: none;
     border-radius: 999px;
+}
+
+.right span {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.right button:last-child {
+    margin-left: 8px;
 }
 
 .right a:hover, .right button:hover, .left button:hover {
@@ -109,8 +129,8 @@ svg {
 }
 
 @media(max-width: 1200px) {
-    .header {
-        justify-content: none;
+    header {
+        justify-content: flex-start;
     }
 
     .mid {

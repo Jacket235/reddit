@@ -28,18 +28,21 @@ export default function Header() {
                     <span>{icons.magnifying_glass}</span>
                     <input type="text" value={searchField} onChange={e => setSearchField(e.target.value)} placeholder="Search Reddit"/>
                     {searchField.length > 0 && (
-                          <span style={{right: "16px", cursor: "pointer"}}>{icons.clear}</span>
+                        <span style={{right: "16px", cursor: "pointer"}}>{icons.clear}</span>
                     )}
                 </div>
             </div>
             <div className="right">
-                {width > 959 && (
+                {width >= 960 && (
                     <a>{icons.advertise}</a>
                 )}
                 <button>{icons.chat}</button>
-                <a style={{padding: "10px 14px 10px 10px", gap: "9px"}}>{icons.plus_sign} Create</a>
+                <a style={{padding: "0 15px 0 11px", gap: "8px"}}>
+                    {icons.plus_sign}
+                    <span>Create</span>
+                </a>
                 <a>{icons.bell}</a>
-                <a>{icons.default_avatar}</a>
+                <button style={{padding: "0 4px"}}>{icons.default_avatar}</button>
             </div>
         </header>
     );
