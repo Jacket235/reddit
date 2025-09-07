@@ -7,11 +7,13 @@ export default function Sidebar() {
     const [expanded, setExpanded] = useState<boolean>(false); 
 
     return (
-        <div className={`sidebar ${hovered ? "hovered" : ""} ${expanded ? "expanded" : ""}`}> 
+        <div 
+            className={`sidebar ${hovered ? "hovered" : ""} ${expanded ? "expanded" : ""}`}
+            onMouseLeave={() => setHovered(false)}
+        > 
             <div 
                 className={`hoverable-target ${hovered ? "hovered" : ""}`}
                 onMouseEnter={() => setHovered(true)}
-                onMouseLeave={() => setHovered(false)}
             ></div>
             <div className="nav-container">
                 <div className="nav-button" onClick={() => setExpanded(!expanded)}>
@@ -48,6 +50,20 @@ export default function Sidebar() {
                             <span>All</span>
                         </span>
                     </a>
+                    <hr></hr>
+                    <details>
+                        <summary>
+                            <span>Custom feeds</span>
+                            <span>
+                                <span>{icons.details_arrow}</span>
+                            </span>
+                        </summary>
+                        <ul>
+                            <li>
+                                <span>{icons.plus_sign}</span> Create Custom Feed
+                            </li>
+                        </ul>
+                    </details>
                 </nav>
             </div>
         </div>
