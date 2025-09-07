@@ -53,9 +53,26 @@
 }
 
 .nav-container {
+    overflow: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.nav-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.nav-container::-webkit-scrollbar-thumb {
+    display: none;
+    background: rgb(62, 65, 66);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.nav-container:hover::-webkit-scrollbar-thumb {
+    display: block;
 }
 
 nav {
@@ -63,6 +80,7 @@ nav {
     flex-direction: column;
     padding: 16px 24px 0 16px;
     font-size: 14px;
+    margin-top: -1px;
 }
 
 nav a {
@@ -80,4 +98,20 @@ nav a:hover {
 
 nav a span {
     display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+}
+
+ nav a > span > span:first-child {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+nav a > span > span:nth-child(2) {
+    padding-bottom: 1px;
 }

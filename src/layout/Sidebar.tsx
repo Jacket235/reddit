@@ -19,23 +19,34 @@ export default function Sidebar() {
                 </div>
                 <nav>
                     <a>
-                        <span>{icons.home}</span> 
-                        <span>Home</span>
+                        <span>
+                            <span>{icons.home}</span> 
+                            <span>Home</span>
+                        </span>
                     </a>
                     <a>
-                        <span>{icons.popular}</span> Popular
+                        <span>
+                            <span>{icons.popular}</span> 
+                            <span>Popular</span>
+                        </span>
                     </a>
-
                     <a>
-                        <span>{icons.answers}</span> Answers
+                        <span>
+                            <span>{icons.answers}</span> 
+                            <span>Answers</span>
+                        </span>
                     </a>
-
                     <a>
-                        <span>{icons.explore}</span> Explore
+                        <span>
+                            <span>{icons.explore}</span>  
+                            <span>Explore</span>
+                        </span>
                     </a>
-
                     <a>
-                        <span>{icons.all}</span> All
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
                     </a>
                 </nav>
             </div>
