@@ -18,6 +18,7 @@ svg {
 
 .left svg {
     height: 22px;
+    fill: white;
 }
 
 .left img {
@@ -85,6 +86,7 @@ svg {
 
 .input-wrapper input::placeholder {
     color: rgb(139, 162, 173);
+    font-size: 14px;
 }
 
 .right {
