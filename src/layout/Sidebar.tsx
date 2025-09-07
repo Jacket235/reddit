@@ -7,10 +7,7 @@ export default function Sidebar() {
     const [expanded, setExpanded] = useState<boolean>(false); 
 
     return (
-        <div 
-            className={`sidebar ${hovered ? "hovered" : ""} ${expanded ? "expanded" : ""}`}
-            onMouseLeave={() => setHovered(false)}
-        > 
+        <div className={`sidebar ${hovered ? "hovered" : ""} ${expanded ? "expanded" : ""}`} onMouseLeave={() => setHovered(false)}> 
             <div 
                 className={`hoverable-target ${hovered ? "hovered" : ""}`}
                 onMouseEnter={() => setHovered(true)}
@@ -60,10 +57,116 @@ export default function Sidebar() {
                         </summary>
                         <ul>
                             <li>
-                                <span>{icons.plus_sign}</span> Create Custom Feed
+                                <div className="feed">
+                                    <span>
+                                        <span>{icons.plus_sign}</span>
+                                        <span>Create Custom Feed</span>
+                                    </span>
+                                </div>
                             </li>
                         </ul>
                     </details>
+
+
+
+
+
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
+                    <a>
+                        <span>
+                            <span>{icons.all}</span>  
+                            <span>All</span>
+                        </span>
+                    </a>
                 </nav>
             </div>
         </div>

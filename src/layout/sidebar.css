@@ -30,7 +30,7 @@
 
 .hoverable-target.hovered {
     top: 57px;
-    width: 0px;
+    width: 0;
     height: calc(100% - 57px);
     z-index: 100;
 }
@@ -91,7 +91,6 @@ nav a {
     height: 32px;
     padding: 4px 16px;
     border-radius: 8px;
-    color: #DBE4E9;
 }
 
 nav a:hover {
@@ -106,24 +105,50 @@ nav a span {
 }
 
 nav a > span > span:first-child {
-    width: 32px;
-    height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    width: 32px;
+    height: 32px;
 }
 
 nav a > span > span:nth-child(2) {
     padding-bottom: 1px;
 }
 
-details summary span span:last-child {
-    transition: transform 0.3s ease;
+ul {
+    list-style: none;
+}
+
+.feed {
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+.feed span {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    gap: 8px;
+}
+
+.feed span span:first-child {
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.feed:hover {
+    background-color: rgb(24, 28, 31);
 }
 
 details[open] summary span span:last-child {
     transform: rotate(180deg);
+}
+
+.feed, details {
+    cursor: pointer;
 }
 
 summary {
@@ -143,14 +168,22 @@ summary span {
 
 summary span:first-child {
     text-transform: uppercase;
-    letter-spacing: 1.2px;
     color: #748791;
+    letter-spacing: 1.2px;
     font-weight: 400;
     padding: 6px 0;
 }
 
+summary span span:last-child {
+    transition: transform 0.3s ease;
+}
+
 summary:hover {
     background-color: rgb(24, 28, 31);
+}
+
+nav a, .feed span {
+    color: #DBE4E9;
 }
 
 hr {
