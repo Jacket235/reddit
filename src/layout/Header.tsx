@@ -28,7 +28,7 @@ export default function Header() {
                     <span>{icons.magnifying_glass}</span>
                     <input type="text" value={searchField} onChange={e => setSearchField(e.target.value)} placeholder="Search Reddit"/>
                     {searchField.length > 0 && (
-                        <span style={{right: "16px", cursor: "pointer"}}>{icons.clear}</span>
+                        <span style={{right: "14px", cursor: "pointer"}}>{icons.clear}</span>
                     )}
                 </div>
             </div>
