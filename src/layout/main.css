@@ -94,7 +94,7 @@ article:hover {
     background: none;
     outline: none;
     border: none;
-    z-index: 999;
+    z-index: 2;
 }
 
 .credit-bar button:hover {
@@ -103,7 +103,7 @@ article:hover {
 
 .credit-bar span {
     gap: 4px;
-    z-index: 999;
+    z-index: 2;
 }
 
 .credit-bar, .credit-bar span, .credit-bar a {
@@ -156,7 +156,7 @@ article:hover {
     align-items: center;
     border-radius: 15px;
     background-color: rgb(42, 50, 54);
-    z-index: 999;
+    z-index: 2;
 }
 
 .action-row button, .action-row a {

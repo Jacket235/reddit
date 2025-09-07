@@ -1,9 +1,9 @@
 .sidebar {
     position: sticky;
-    height: 100%;
+    top: 57px;
+    min-height: calc(100vh - 57px);
     font-size: 14px;
     overflow-y: auto;
-    overflow-x: hidden;
     width: 32px;
     transition: width .2s ease-in-out;
     background-color: rgb(14, 17, 19);
