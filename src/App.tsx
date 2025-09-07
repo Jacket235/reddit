@@ -3,11 +3,8 @@ import Header from './layout/Header';
 import Sidebar from './layout/Sidebar';
 import Main from './layout/Main';
 import Aside from './layout/Aside';
-import { useState } from 'react';
 
-function App() {
-  const [expanded, setExpanded] = useState<boolean>(false);
-  
+function App() {  
   return (
     <div className='app'>
         <Header />

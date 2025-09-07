@@ -17,6 +17,11 @@ a {
 
 main hr {
     margin: 0;
+    border: none;
+    height: .5px;
+    background-color: rgb(38, 40, 42);
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 .top {
