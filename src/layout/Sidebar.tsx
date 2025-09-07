@@ -57,7 +57,7 @@ export default function Sidebar() {
                         </summary>
                         <ul>
                             <li>
-                                <div className="feed">
+                                <div className="option">
                                     <span>
                                         <span>{icons.plus_sign}</span>
                                         <span>Create Custom Feed</span>
@@ -67,7 +67,7 @@ export default function Sidebar() {
                         </ul>
                     </details>
                     <hr></hr>
-                    <details>
+                    <details style={{marginTop: "1px"}}>
                         <summary>
                             <span>RECENT</span>
                             <span>
@@ -76,7 +76,7 @@ export default function Sidebar() {
                         </summary>
                         <ul>
                             <li>
-                                <div className="feed">
+                                <div className="option">
                                     <span>
                                         <span>{icons.default_subreddit_icon}</span>
                                         <span>r/subreddit</span>
@@ -84,7 +84,7 @@ export default function Sidebar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="feed">
+                                <div className="option">
                                     <span>
                                         <span>{icons.default_subreddit_icon}</span>
                                         <span>r/subreddit</span>
@@ -92,7 +92,7 @@ export default function Sidebar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="feed">
+                                <div className="option">
                                     <span>
                                         <span>{icons.default_subreddit_icon}</span>
                                         <span>r/subreddit</span>
@@ -100,7 +100,7 @@ export default function Sidebar() {
                                 </div>
                             </li>
                             <li>
-                                <div className="feed">
+                                <div className="option">
                                     <span>
                                         <span>{icons.default_subreddit_icon}</span>
                                         <span>r/subreddit</span>
@@ -110,6 +110,222 @@ export default function Sidebar() {
                         </ul>
                     </details>
                     <hr></hr>
+                    <details>
+                        <summary>
+                            <span>Communities</span>
+                            <span>
+                                <span>{icons.details_arrow}</span>
+                            </span>
+                        </summary>
+                        <ul>
+                            <li>
+                                <div className="option">
+                                    <span>
+                                        <span>{icons.plus_sign}</span>
+                                        <span>Create Community</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="option">
+                                    <span>
+                                        <span>{icons.cogwheel}</span>
+                                        <span>Manage Communities</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/dogs</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/announcements</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/dogs</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/dogs</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/dogs</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="community-item">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/dogs</span>
+                                        <button>{icons.star}</button>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </details>
+                    <hr></hr>
+                    <details style={{marginTop: "1px"}}>
+                        <summary>
+                            <span>Resources</span>
+                            <span>
+                                <span>{icons.details_arrow}</span>
+                            </span>
+                        </summary>
+                        <ul>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.reddit_outline}</span> 
+                                        <span>About Reddit</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.advertise_nav}</span> 
+                                        <span>Advertise</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.reddit_pro}</span> 
+                                        <span>Reddit Pro</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.help}</span> 
+                                        <span>Help</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.blog}</span> 
+                                        <span>Blog</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.careers}</span> 
+                                        <span>Careers</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.press}</span> 
+                                        <span>Press</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <hr></hr>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.communities}</span> 
+                                        <span>Communities</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.best_of_reddit}</span> 
+                                        <span>Best of Reddit</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.top_translated_posts}</span> 
+                                        <span>Top Translated Posts</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.topics}</span> 
+                                        <span>Topics</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <hr></hr>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.reddit_rules}</span> 
+                                        <span>Reddit Rules</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.privacy_policy}</span> 
+                                        <span>Privacy Policy</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.user_agreement}</span> 
+                                        <span>User Agreement</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                               <a>
+                                    <span>
+                                        <span>{icons.accessibility}</span> 
+                                        <span>Accessibility</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </details>
+                    <div className="copyright-link-container">
+                        <a className="copyright-link">Reddit, Inc. © 2025. All rights reserved.</a>
+                    </div>
                 </nav>
             </div>
         </div>

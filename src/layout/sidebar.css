@@ -17,7 +17,6 @@
     top: 128px;
     height: calc(100% - 128px);
     width: 48px;
-    z-index: 101;
 }
 
 .sidebar.hovered, .sidebar.expanded {
@@ -32,7 +31,6 @@
     top: 57px;
     width: 0;
     height: calc(100% - 57px);
-    z-index: 100;
 }
 
 .nav-button {
@@ -53,7 +51,7 @@
 }
 
 .nav-container {
-    overflow-y: auto;
+    overflow-y: visible;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -89,12 +87,6 @@ nav a {
     align-items: center;
     cursor: pointer;
     height: 32px;
-    padding: 4px 16px;
-    border-radius: 8px;
-}
-
-nav a:hover {
-    background-color: rgb(24, 28, 31);
 }
 
 nav a span {
@@ -117,35 +109,28 @@ ul {
     list-style: none;
 }
 
-.feed {
-    padding: 4px 16px;
-    border-radius: 8px;
-}
-
-.feed span {
+.option span {
     display: flex;
     align-items: center;
     font-weight: 400;
     gap: 8px;
 }
 
-.feed span span:first-child {
+.option span span:first-child {
     justify-content: center;
     width: 32px;
     height: 32px;
 }
 
-.feed:hover {
-    background-color: rgb(24, 28, 31);
-}
-
-
-
 details[open] summary span span:last-child {
     transform: rotate(180deg);
 }
 
-.feed, details {
+details hr {
+    background-color: rgb(65, 65, 66);
+}
+
+.option, details {
     cursor: pointer;
 }
 
@@ -153,8 +138,6 @@ summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 8px;
-    padding: 4px 16px;
 }
 
 summary span {
@@ -176,20 +159,78 @@ summary span span:last-child {
     transition: transform 0.3s ease;
 }
 
-summary:hover {
+.community-item span {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 400;
+    gap: 8px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.community-item span span:nth-child(2) {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.community-item span button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 999px;
+}
+
+.community-item span button:hover {
+    background-color: rgb(51, 61, 66);
+}
+
+.community-item span span:first-child, .community-item span button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+}
+
+.copyright-link-container {
+    margin-top: 18px;
+    padding: 16px 0;
+}
+
+.copyright-link {
+    color: #ACACAC;
+    height: auto;
+    width: auto;
+    font-size: 10px;
+    padding: 1px 16px;
+}
+
+.copyright-link:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+nav a, .option, summary, .community-item {
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+
+nav a:hover, .option:hover, summary:hover, .community-item:hover {
     background-color: rgb(24, 28, 31);
 }
 
-nav a, .feed span {
+nav a, .option span {
     color: #DBE4E9;
 }
 
-nav a > span > span:nth-child(2), .feed span span:last-child {
+nav a > span > span:nth-child(2), .option span span:last-child {
     padding-bottom: 1px;
-}
-
-details:not(:first-of-type) {
-    margin-top: 1px;
 }
 
 hr {
