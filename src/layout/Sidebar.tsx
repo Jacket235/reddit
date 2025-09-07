@@ -66,107 +66,50 @@ export default function Sidebar() {
                             </li>
                         </ul>
                     </details>
-
-
-
-
-
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
-                    <a>
-                        <span>
-                            <span>{icons.all}</span>  
-                            <span>All</span>
-                        </span>
-                    </a>
+                    <hr></hr>
+                    <details>
+                        <summary>
+                            <span>RECENT</span>
+                            <span>
+                                <span>{icons.details_arrow}</span>
+                            </span>
+                        </summary>
+                        <ul>
+                            <li>
+                                <div className="feed">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/subreddit</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="feed">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/subreddit</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="feed">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/subreddit</span>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="feed">
+                                    <span>
+                                        <span>{icons.default_subreddit_icon}</span>
+                                        <span>r/subreddit</span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </details>
+                    <hr></hr>
                 </nav>
             </div>
         </div>
