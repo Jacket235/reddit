@@ -33,7 +33,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="right">
-                {width >= 960 && (
+                {width >= 1200 && (
                     <a>{icons.advertise}</a>
                 )}
                 <button>{icons.chat}</button>

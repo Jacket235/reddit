@@ -30,7 +30,7 @@ const TimeAgo: React.FC<TimeAgoProps> = ({ date }) => {
 
   return (
     <span>
-      <time dateTime={date}>{timeAgo}</time>
+      <time dateTime={date} className="time">{timeAgo}</time>
     </span>
   );
 };
