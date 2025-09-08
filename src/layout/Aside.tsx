@@ -1,9 +1,9 @@
 import './aside.css'
 
-export default function Asied() {
+export default function Aside() {
     return(
         <aside>
-            Hey 2
+            Recent posts
         </aside>
     );
 }

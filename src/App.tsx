@@ -13,7 +13,9 @@ function App() {
                 <div className='subgrid-container'>
                     <div className='main-container'>
                         <Main />
-                        <Aside />
+                        <div className='recent-posts-container'>
+                            <Aside />
+                        </div>
                     </div>
                 </div>
             </div>     

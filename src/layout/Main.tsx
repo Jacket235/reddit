@@ -3,7 +3,7 @@ import './main.css'
 export default function Main() {
     return (
         <main>
-            hey
+            hey<br />    
         </main>
     );
 }
