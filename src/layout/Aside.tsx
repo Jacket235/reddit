@@ -1,10 +1,9 @@
-import './aside.css';
-import { useEffect, useState } from 'react';
+import './aside.css'
 
-export default function Aside() {
-    return (
+export default function Asied() {
+    return(
         <aside>
-            Recent posts
+            Hey 2
         </aside>
     );
 }
