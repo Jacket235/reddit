@@ -172,6 +172,7 @@ article:hover {
 }
 
 .action-row button, .action-row a {
+    text-decoration: none;
     font-size: 12px;
     border-radius: 999px;
     cursor: pointer;
