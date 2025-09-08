@@ -6,8 +6,9 @@
 
 .grid-container {
     display: flex;
+    margin-top: -1px;
     justify-content: center;
-    min-height: calc(100vh - 57px);
+    min-height: calc(100vh - 56px);
 }
 
 .subgrid-container {
