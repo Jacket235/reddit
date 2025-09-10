@@ -15,10 +15,12 @@ export default function Header() {
     return (
         <header>
             <div className="left">
-                {width <= 1200 && (
-                    <button>{icons.nav}</button>
-                )}
-                {icons.logo}
+                <span>
+                    {width <= 1200 && (
+                        <button>{icons.nav}</button>
+                    )}
+                    {icons.logo}
+                </span>
                 {width >= 960 && (
                     icons.reddit
                 )}
