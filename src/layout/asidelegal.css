@@ -1,0 +1,26 @@
+.legal-links {
+    display: flex;
+    justify-self: end;
+    width: 274px;
+    margin: 0 16px 16px 16px;
+}
+
+.legal-links > span {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 8px;
+}
+
+.legal-links span span {
+    display: inline-block;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 20px;
+}
+
+.legal-links a {
+    color: #8BA2AD;
+    font-size: 12px;
+    font-weight: 400;
+}

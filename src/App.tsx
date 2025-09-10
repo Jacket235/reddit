@@ -3,6 +3,7 @@ import Header from './layout/Header';
 import Sidebar from './layout/Sidebar';
 import Main from './layout/Main';
 import Aside from './layout/Aside';
+import AsideLegal from './layout/AsideLegal';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                         <Main />
                         <div className='recent-posts-container'>
                             <Aside />
+                            <AsideLegal />
                         </div>
                     </div>
                 </div>

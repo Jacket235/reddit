@@ -1,6 +1,6 @@
 aside {
-    box-sizing: border-box;
     color: white;
     padding: 16px 0;
-    width: 100%
+    width: 306px;
+    flex: 1 1 auto;
 }
