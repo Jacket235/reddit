@@ -23,8 +23,7 @@
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 48px;
+    gap: 24px;
 }
 
 .recent-posts-container {
@@ -33,11 +32,9 @@
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    box-sizing: content-box;
+    justify-content: flex-start;
     scrollbar-gutter: stable;
     top: 56px;
-    width: 306px;
-    max-width: 316px;
     min-height: calc(100vh - 57px);
     max-height: calc(100vh - 57px);
 }
