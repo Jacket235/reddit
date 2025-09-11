@@ -1,5 +1,93 @@
 aside {
     color: white;
-    padding: 16px 0;
     flex: 1 1 auto;
+}
+
+.aside-contents {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    border-radius: 16px;
+    margin: 32px 0;
+}
+
+.aside-contents .recent-post:last-child {
+    margin-bottom: 16px;
+}
+
+.aside-recent-posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-recent-posts h3 {
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0 16px;
+    margin: 18px 0;
+    text-transform: uppercase;
+    color: #748791;
+}
+
+.aside-recent-posts button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #647EFC;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 3px 16px;
+    margin: 16px 0;
+}
+
+.recent-post {
+    display: flex;
+    font-size: 12px;
+    margin: 0 16px;
+}
+
+.recent-post-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+    font-size: 12px;
+}
+
+.recent-post-subreddit-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+}
+
+.recent-post-subreddit-info a {
+    display: flex;
+    align-items: center;
+}
+
+.recent-post-subreddit-info > span {
+    padding: 0 4px;
+}
+
+.recent-post-subreddit-info a span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-post-subreddit-info a span:last-child {
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.recent-post-title {
+    display: flex;
+}
+
+.recent-post-action-row {
+
 }
