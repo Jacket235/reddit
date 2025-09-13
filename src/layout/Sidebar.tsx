@@ -1,6 +1,7 @@
 import './sidebar.css'
 import icons from "../components/Icons";
 import { useState } from 'react';
+import exp from 'constants';
 
 export default function Sidebar() {
     const [hovered, setHovered] = useState<boolean>(false); 
@@ -16,7 +17,7 @@ export default function Sidebar() {
                 <div className="nav-button" onClick={() => setExpanded(!expanded)}>
                     {icons.nav_open}
                 </div>
-                <nav>
+                <nav className={hovered || expanded ? "active" : ""}>
                     <a>
                         <span>
                             <span>{icons.home}</span> 

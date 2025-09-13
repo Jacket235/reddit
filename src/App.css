@@ -44,10 +44,15 @@
 }
 
 .recent-posts-container::-webkit-scrollbar-thumb {
+    display: none;
     background: rgb(62, 65, 66);
     border-radius: 999px;
     border: 2px solid transparent;
     background-clip: content-box;
+}
+
+.recent-posts-container:hover::-webkit-scrollbar-thumb {
+    display: block;
 }
 
 .sidebar.expanded + .subgrid-container {

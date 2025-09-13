@@ -21,6 +21,7 @@ main hr {
     display: flex;
     align-items: center;
     background: none;
+    cursor: pointer;
     border: none;
     outline: none;
     font-size: 12px;

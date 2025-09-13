@@ -13,7 +13,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/youtube</span>
                             </a>
@@ -36,7 +36,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/premiere</span>
                             </a>
@@ -59,7 +59,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/github</span>
                             </a>
@@ -80,7 +80,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/tailwindcss</span>
                             </a>
@@ -103,7 +103,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/youtube</span>
                             </a>
@@ -126,7 +126,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/premiere</span>
                             </a>
@@ -149,7 +149,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/github</span>
                             </a>
@@ -170,7 +170,7 @@ export default function Aside() {
                 <div className="recent-post">
                     <div className="recent-post-info">
                         <div className="recent-post-subreddit-info">
-                            <a>
+                            <a href=''>
                                 <span>{icons.default_subreddit_icon_aside} </span>
                                 <span>r/youtube</span>
                             </a>

@@ -77,6 +77,12 @@ aside hr {
 .recent-post-subreddit-info a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.recent-post-subreddit-info a:hover {
+    text-decoration: underline;
 }
 
 .recent-post-subreddit-info > span:first-of-type {
