@@ -163,10 +163,11 @@ summary span span:last-child {
     display: flex;
     align-items: center;
     flex-direction: row;
+    overflow: hidden;
+    color: white;
     font-weight: 400;
     gap: 8px;
     min-width: 0;
-    overflow: hidden;
 }
 
 .community-item span span:nth-child(2) {
